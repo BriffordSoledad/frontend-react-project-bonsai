@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Inter:wght@400;500;600;700&display=swap');
+
+.addons-heading {
+    font-family: 'Lora', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    color: #2b3a4a;
+    margin-bottom: 48px;
+}
+
+.addons-list {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.addon-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 40px 48px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+.addon-info h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #2b3a4a;
+    margin-bottom: 8px;
+}
+
+.addon-info p {
+    font-size: 1rem;
+    color: #5c6773;
+    max-width: 620px;
+    line-height: 1.5;
+}
+
+.learn-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #17a673;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+.addon-price {
+    text-align: right;
+    flex-shrink: 0;
+    margin-left: 24px;
+}
+
+.addon-price .price {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2b3a4a;
+    line-height: 1;
+}
+
+.addon-price .free {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #2b3a4a;
+}
+
+.addon-price .period {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #8a929a;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: 4px;
+}
